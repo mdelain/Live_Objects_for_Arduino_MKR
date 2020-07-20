@@ -11,4 +11,4 @@
 | Arduino MKR VIDOR 4000 | OK | OK* |
 | Arduino Nano 33 IoT | not tested | not tested* |
 
-*You need to import the Root CA certificate using the Firmware updater from the example of the WiFiNINA library, and follow [this tutorial](https://www.arduino.cc/en/Tutorial/WiFiNINAFirmwareUpdater) to add the domain ``liveobjects.orange-business.com:443``.
+*For WiFI boards, you need to import manually the Root CA certificate using the Firmware updater from the example of the WiFiNINA library, and follow [this tutorial](https://www.arduino.cc/en/Tutorial/WiFiNINAFirmwareUpdater) to add the domain ``liveobjects.orange-business.com:443`` (you only need to do it once).
